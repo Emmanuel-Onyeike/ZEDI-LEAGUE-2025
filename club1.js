@@ -217,6 +217,12 @@ function showPlayerDetails(playerName) {
         document.getElementById('defense').innerText = player.stats.defense;
         document.getElementById('stamina').innerText = player.stats.stamina;
         document.getElementById('strength').innerText = player.stats.strength;
+         document.getElementById('pace').innerText = player.stats.pace;
+         document.getElementById('shooting').innerText = player.stats.shooting;
+         document.getElementById('passing').innerText = player.stats.passing;
+         document.getElementById('dribbling').innerText = player.stats.dribbling;
+         document.getElementById('defending').innerText = player.stats.defending;
+         document.getElementById('physical').innerText = player.stats.physical;
 
         // Set rating bar color
         const ratingBar = document.getElementById('ratingBar');
