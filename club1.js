@@ -5,10 +5,10 @@ const playerData = {
         stats: {
             pace: '78',
             shooting: '70',
-            passing: '71',
-            dribbling: '71',
-            defending: '71',
-            physical: '71',
+            passing: '79',
+            dribbling: '80',
+            defending: '89',
+            physical: '90',
             
         },
         rating: 77
