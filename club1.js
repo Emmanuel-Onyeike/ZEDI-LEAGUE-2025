@@ -205,12 +205,7 @@ function showPlayerDetails(playerName) {
         document.getElementById('playerImage').style.backgroundSize = 'cover';
 
         // Set player stats
-        document.getElementById('passing').innerText = player.stats.passing;
-        document.getElementById('shooting').innerText = player.stats.shooting;
-        document.getElementById('speed').innerText = player.stats.speed;
-        document.getElementById('defense').innerText = player.stats.defense;
-        document.getElementById('stamina').innerText = player.stats.stamina;
-        document.getElementById('strength').innerText = player.stats.strength;
+       
          document.getElementById('pace').innerText = player.stats.pace;
          document.getElementById('shooting').innerText = player.stats.shooting;
          document.getElementById('passing').innerText = player.stats.passing;
