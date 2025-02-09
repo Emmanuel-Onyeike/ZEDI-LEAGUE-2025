@@ -148,14 +148,14 @@ const playerData = {
     'Player 13': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '86',
-            shooting: '89',
-            speed: '87',
+            passing: '70',
+            shooting: '70',
+            speed: '68',
             defense: '88',
-            stamina: '84',
-            strength: '85'
+            stamina: '67',
+            strength: '70'
         },
-        rating: 86
+        rating: 79
     }
 };
 
