@@ -100,14 +100,14 @@ const playerData = {
     'Player 9': {
         image: 'https://via.placeholder.com/150',
         stats: {
-             pace: '78',
-            shooting: '70',
-            passing: '71',
+             pace: '82',
+            shooting: '75',
+            passing: '79',
             dribbling: '71',
-            defending: '71',
-            physical: '71',
+            defending: '80',
+            physical: '83',
         },
-        rating: 84
+        rating: 79
     },
     'Player 10': {
         image: 'https://via.placeholder.com/150',
