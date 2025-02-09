@@ -9,7 +9,7 @@ const playerData = {
             defense: '79',
             stamina: '70',
             strength: '71',
-            pace: '71',
+            
             shooting: '71',
             passing: '71',
             dribbling: '71',
