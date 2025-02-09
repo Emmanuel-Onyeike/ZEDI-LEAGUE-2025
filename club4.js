@@ -64,7 +64,7 @@ const playerData = {
         image: 'https://via.placeholder.com/150',
         stats: {
             passing: '60',
-            shooting: '89',
+            shooting: '85',
             speed: '89',
             defense: '79',
             stamina: '80',
