@@ -326,7 +326,27 @@ function updatePlayerStat(playerName, statName, newValue) {
     }
 }
 
-// Example of how to use the function to update stats (this could be tied to input fields or buttons):
-// updatePlayerStat('Player 1', 'pace', '85');
-// updatePlayerStat('Player 1', 'shooting', '75');
+// Function to initialize input fields for stats and add event listeners
+function initializeStatInputs() {
+    const statInputs = document.querySelectorAll('.stat-input');
 
+    statInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const playerName = this.dataset.player;
+            const statName = this.dataset.stat;
+            const newValue = this.value;
+
+            updatePlayerStat(playerName, statName, newValue);
+        });
+    });
+}
+
+// Example of setting up HTML for stats and rating:
+// Assuming HTML structure has input fields for stats like below:
+
+// <input type="number" class="stat-input" data-player="Player 1" data-stat="pace" value="78">
+// <div id="Player 1-rating"></div>
+// <div id="Player 1-ratingBar"></div>
+
+// Call the function to initialize the stat inputs on page load
+initializeStatInputs();
