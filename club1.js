@@ -42,7 +42,7 @@ const playerData = {
             passing: '87',
             shooting: '94',
             speed: '86',
-            defense: '20',
+            defense: '57',
             stamina: '79',
             strength: '80'
         },
@@ -156,6 +156,30 @@ const playerData = {
             strength: '70'
         },
         rating: 79
+    },
+     'Player 14': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '69',
+            shooting: '69',
+            speed: '80',
+            defense: '90',
+            stamina: '87',
+            strength: '88'
+        },
+        rating: 86
+    },
+     'Player 15': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '87',
+            shooting: '83',
+            speed: '80',
+            defense: '87',
+            stamina: '84',
+            strength: '87'
+        },
+        rating: 84
     }
 };
 
