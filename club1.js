@@ -28,12 +28,12 @@ const playerData = {
     'Player 3': {
         image: 'https://via.placeholder.com/150',
         stats: {
-           pace: '78',
-            shooting: '70',
-            passing: '71',
-            dribbling: '71',
+            pace: '93',
+            shooting: '88',
+            passing: '80',
+            dribbling: '86',
             defending: '71',
-            physical: '71',
+            physical: '81',
         },
         rating: 85
     },
