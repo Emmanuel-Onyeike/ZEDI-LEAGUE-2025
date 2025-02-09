@@ -39,12 +39,12 @@ const playerData = {
     'Player 4': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '70',
-            shooting: '60',
-            speed: '65',
-            defense: '72',
-            stamina: '78',
-            strength: '74'
+            passing: '65',
+            shooting: '90',
+            speed: '88',
+            defense: '40',
+            stamina: '70',
+            strength: '70'
         },
         rating: 68
     },
