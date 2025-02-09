@@ -155,6 +155,42 @@ const playerData = {
             strength: '81'
         },
         rating: 85
+    },
+       'Player 14': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '60',
+            shooting: '70',
+            speed: '88',
+            defense: '87',
+            stamina: '90',
+            strength: '87'
+        },
+        rating: 86
+    },
+       'Player 15': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '82',
+            shooting: '84',
+            speed: '70',
+            defense: '80',
+            stamina: '82',
+            strength: '85'
+        },
+        rating: 89
+    },
+       'Player 16': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '76',
+            shooting: '70',
+            speed: '79',
+            defense: '90',
+            stamina: '87',
+            strength: '88'
+        },
+        rating: 89
     }
 };
 
