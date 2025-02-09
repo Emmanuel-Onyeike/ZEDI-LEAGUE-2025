@@ -46,7 +46,7 @@ const playerData = {
             stamina: '70',
             strength: '70'
         },
-        rating: 68
+        rating: 80
     },
     'Player 5': {
         image: 'https://via.placeholder.com/150',
