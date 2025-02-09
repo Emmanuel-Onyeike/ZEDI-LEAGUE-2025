@@ -5,12 +5,6 @@ const playerData = {
         stats: {
             pace: '78',
             shooting: '70',
-            speed: '60',
-            defense: '79',
-            stamina: '70',
-            strength: '71',
-            
-            shooting: '71',
             passing: '71',
             dribbling: '71',
             defending: '71',
