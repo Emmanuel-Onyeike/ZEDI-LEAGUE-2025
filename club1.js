@@ -3,7 +3,7 @@ const playerData = {
     'Player 1': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '78',
+            passing: '81',
             shooting: '69',
             speed: '73',
             defense: '91',
