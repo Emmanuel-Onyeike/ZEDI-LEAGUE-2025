@@ -268,3 +268,65 @@ function initializeProfileImages() {
 
 // Call the function to initialize profile images on page load
 initializeProfileImages();
+
+// Function to calculate the player's total rating based on stats
+function calculatePlayerRating(playerName) {
+    const player = playerData[playerName];
+
+    if (player) {
+        // Calculate total of all stats
+        const totalStats = parseInt(player.stats.pace) + parseInt(player.stats.shooting) + parseInt(player.stats.passing) +
+            parseInt(player.stats.dribbling) + parseInt(player.stats.defending) + parseInt(player.stats.physical);
+
+        // Calculate the average (divide by 6, the number of stats)
+        const newRating = Math.round(totalStats / 6);
+
+        // Update the player's rating in the playerData object
+        player.rating = newRating;
+
+        // Update the display of the rating
+        updatePlayerRatingDisplay(playerName, newRating);
+    }
+}
+
+// Function to update the player's rating and the rating bar
+function updatePlayerRatingDisplay(playerName, newRating) {
+    const player = playerData[playerName];
+
+    // Update rating number
+    document.getElementById(playerName + '-rating').innerText = newRating;
+
+    // Update rating bar
+    const ratingBar = document.getElementById(playerName + '-ratingBar');
+    const ratingPercentage = newRating;
+
+    // Update rating bar width
+    ratingBar.innerHTML = `<div style="width: ${ratingPercentage}%"></div>`;
+
+    // Set the color of the rating bar
+    if (ratingPercentage >= 80) {
+        ratingBar.querySelector('div').style.backgroundColor = 'green';
+    } else if (ratingPercentage >= 60) {
+        ratingBar.querySelector('div').style.backgroundColor = 'yellow';
+    } else {
+        ratingBar.querySelector('div').style.backgroundColor = 'red';
+    }
+}
+
+// Function to handle changing stats and automatically recalculating the rating
+function updatePlayerStat(playerName, statName, newValue) {
+    const player = playerData[playerName];
+
+    if (player && player.stats.hasOwnProperty(statName)) {
+        // Update the stat
+        player.stats[statName] = newValue;
+
+        // Recalculate and update rating
+        calculatePlayerRating(playerName);
+    }
+}
+
+// Example of how to use the function to update stats (this could be tied to input fields or buttons):
+// updatePlayerStat('Player 1', 'pace', '85');
+// updatePlayerStat('Player 1', 'shooting', '75');
+
