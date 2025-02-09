@@ -3,147 +3,147 @@ const playerData = {
     'Player 1': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '85',
+            passing: '78',
             shooting: '69',
-            speed: '70',
-            defense: '88',
-            stamina: '90',
-            strength: '88'
+            speed: '73',
+            defense: '91',
+            stamina: '88',
+            strength: '89'
         },
-        rating: 89
+        rating: 83
     },
     'Player 2': {
         image: 'https://via.placeholder.com/150',
         stats: {
             passing: '60',
             shooting: '80',
-            speed: '85',
-            defense: '95',
-            stamina: '70',
-            strength: '85'
+            speed: '79',
+            defense: '90',
+            stamina: '78',
+            strength: '82'
         },
-        rating: 87 
+        rating: 82 
     },
     'Player 3': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '70',
-            shooting: '88',
-            speed: '87',
+            passing: '65',
+            shooting: '85',
+            speed: '88',
             defense: '60',
-            stamina: '80',
-            strength: '85'
+            stamina: '85',
+            strength: '87'
         },
-        rating: 85
+        rating: 84
     },
     'Player 4': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '65',
-            shooting: '90',
-            speed: '88',
-            defense: '40',
-            stamina: '70',
-            strength: '70'
+            passing: '87',
+            shooting: '94',
+            speed: '86',
+            defense: '20',
+            stamina: '79',
+            strength: '80'
         },
-        rating: 80
+        rating: 88
     },
     'Player 5': {
         image: 'https://via.placeholder.com/150',
         stats: {
             passing: '88',
             shooting: '89',
-            speed: '91',
-            defense: '88',
-            stamina: '85',
-            strength: '78'
+            speed: '85',
+            defense: '79',
+            stamina: '80',
+            strength: '82'
         },
-        rating: 88
+        rating: 87
     },
     'Player 6': {
         image: 'https://via.placeholder.com/150',
         stats: {
             passing: '76',
-            shooting: '89',
+            shooting: '86',
             speed: '88',
             defense: '65',
-            stamina: '82',
-            strength: '76'
+            stamina: '79',
+            strength: '80'
         },
-        rating: 85
+        rating: 83
     },
     'Player 7': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '81',
-            shooting: '85',
-            speed: '88',
-            defense: '85',
-            stamina: '87',
-            strength: '82'
+            passing: '68',
+            shooting: '78',
+            speed: '78',
+            defense: '80',
+            stamina: '80',
+            strength: '81'
         },
-        rating: 86
+        rating: 81
     },
     'Player 8': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '60',
+            passing: '79',
             shooting: '80',
             speed: '70',
-            defense: '83',
-            stamina: '80',
-            strength: '80'
+            defense: '94',
+            stamina: '89',
+            strength: '90'
         },
-        rating: 80
+        rating: 90
     },
     'Player 9': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            passing: '80',
-            shooting: '80',
-            speed: '77',
-            defense: '94',
-            stamina: '95',
-            strength: '97'
+            passing: '60',
+            shooting: '70',
+            speed: '69',
+            defense: '80',
+            stamina: '83',
+            strength: '85'
         },
-        rating: 93
+        rating: 83
     },
     'Player 10': {
-        image: 'https://via.placeholder.com/150',
-        stats: {
-            passing: '72',
-            shooting: '70',
-            speed: '74',
-            defense: '80',
-            stamina: '75',
-            strength: '77'
-            
-        },
-        rating: 73
-    },
-    'Player 11': {
-        image: 'https://via.placeholder.com/150',
-        stats: {
-            passing: '70',
-            Clearnace: '90',
-            Agilty: '88',
-            Penalty: '70',
-            Vision: '60',
-            strength: '90'
-        },
-        rating: 88
-    },
-    'Player 12': {
         image: 'https://via.placeholder.com/150',
         stats: {
             passing: '80',
             shooting: '78',
             speed: '80',
-            defense: '75',
-            stamina: '82',
-            strength: '81'
+            defense: '86',
+            stamina: '87',
+            strength: '87'
+            
+        },
+        rating: 88
+    },
+    'Player 11': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '65',
+            shooting: '70',
+            speed: '78',
+            Defence: '88',
+            Stamina: '80',
+            strength: '80'
         },
         rating: 80
+    },
+    'Player 12': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            passing: '70',
+            shooting: '70',
+            speed: '60',
+            defense: '50',
+            stamina: '50',
+            strength: '60'
+        },
+        rating: 70
     },
     'Player 13': {
         image: 'https://via.placeholder.com/150',
