@@ -1,3 +1,4 @@
+
 // Player data for each player
 const playerData = {
     'Player 1': {
@@ -191,7 +192,7 @@ const playerData = {
             defending: '84',
             physical: '88',
         },
-        rating: 88
+        rating: 89
     },
        'Player 17': {
         image: 'https://via.placeholder.com/150',
