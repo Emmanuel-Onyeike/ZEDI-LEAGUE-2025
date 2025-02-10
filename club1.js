@@ -186,7 +186,7 @@ const playerData = {
         stats: {
             pace: '88',
             shooting: '92',
-            passing: '90',
+            passing: '95',
             dribbling: '89',
             defending: '84',
             physical: '88',
