@@ -3,14 +3,14 @@ const playerData = {
     'Player 1': {
         image: 'https://via.placeholder.com/150',
         stats: {
-              pace: '83',
-            shooting: '85',
-            passing: '87',
-            dribbling: '83',
-            defending: '92',
+              pace: '89',
+            shooting: '88',
+            passing: '84',
+            dribbling: '89',
+            defending: '80',
             physical: '89',
         },
-        rating: 85
+        rating: 87
     },
     'Player 2': {
         image: 'https://via.placeholder.com/150',
