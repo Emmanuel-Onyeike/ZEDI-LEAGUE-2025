@@ -391,3 +391,76 @@ function initializeStatInputs() {
 
 // Call the function to initialize the stat inputs on page load
 initializeStatInputs();
+   // Set the active/inactive button
+        setPlayerStatusButton(playerName);
+    }
+}
+
+// Function to set the status of the player button (Active/Inactive)
+function setPlayerStatusButton(playerName) {
+    const statusButton = document.getElementById(playerName + '-status-button');
+    const playerStatus = localStorage.getItem(playerName + '-status') || 'active';
+
+    if (playerStatus === 'inactive') {
+        statusButton.innerText = 'Inactive';
+        statusButton.style.backgroundColor = 'red';
+    } else {
+        statusButton.innerText = 'Active';
+        statusButton.style.backgroundColor = 'green';
+    }
+}
+
+// Function to toggle the status of the player (Active/Inactive)
+function togglePlayerStatus(playerName) {
+    const currentStatus = localStorage.getItem(playerName + '-status') || 'active';
+    const newStatus = currentStatus === 'active' ? 'inactive' : 'active';
+
+    // Save the new status in localStorage
+    localStorage.setItem(playerName + '-status', newStatus);
+
+    // Update the button text and color
+    setPlayerStatusButton(playerName);
+}
+
+// Function to create the "Active" button for each player
+function createPlayerStatusButton(playerName) {
+    const playerContainer = document.getElementById(playerName + '-container');
+    const button = document.createElement('button');
+    button.id = playerName + '-status-button';
+    button.innerText = 'Active';
+    button.style.backgroundColor = 'green';
+    button.style.color = 'white';
+    button.style.padding = '10px';
+    button.style.borderRadius = '5px';
+    button.style.cursor = 'pointer';
+
+    // Add event listener for button click to toggle status
+    button.addEventListener('click', () => togglePlayerStatus(playerName));
+
+    // Append the button to the player's container
+    playerContainer.appendChild(button);
+}
+
+// Function to initialize all player status buttons
+function initializePlayerStatusButtons() {
+    Object.keys(playerData).forEach(playerName => {
+        // Create a container for each player
+        const playerContainer = document.createElement('div');
+        playerContainer.id = playerName + '-container';
+        document.body.appendChild(playerContainer);  // Assuming you are appending to the body
+
+        // Create and set up the status button
+        createPlayerStatusButton(playerName);
+        
+        // Display the player's details
+        showPlayerDetails(playerName);
+    });
+}
+
+// Initialize player status buttons when the page loads
+initializePlayerStatusButtons();
+
+// Function to calculate the player's total rating based on stats
+function calculatePlayerRating(playerName) {
+    const player = playerData[playerName];
+
