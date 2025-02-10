@@ -261,17 +261,21 @@ body {
 
 /* Styling for individual labels */
 .label {
-    display: block;
+    display: flex;
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
     font-size: 14px;
     margin: 8px 0;
-    padding: 8px 15px; /* Slightly more padding for better spacing */
+    padding: 10px 15px; /* Adjusted padding for better spacing */
     background-color: #ff4d4d; /* Softer red shade */
-    border-radius: 8px; /* Slightly larger radius for a more rounded look */
+    border-radius: 8px; /* Rounded corners */
     color: #ffffff; /* White text for better contrast */
-    font-weight: 500; /* Slightly bolder font for emphasis */
+    font-weight: 500; /* Slightly bolder text for emphasis */
+    text-align: center; /* Ensure text is centered in case of multiple lines */
     transition: background-color 0.3s, transform 0.3s ease; /* Smooth transition for hover effect */
+    height: 40px; /* Fixed height for uniformity */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
-
 /* Add a subtle hover effect for labels */
 .label:hover {
     background-color: #ff3333; /* Darker red on hover */
