@@ -193,6 +193,18 @@ const playerData = {
         },
         rating: 88
     },
+     'Player 17': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '87',
+            shooting: '89',
+            passing: '87',
+            dribbling: '88',
+            defending: '90',
+            physical: '90',
+        },
+        rating: 88
+    },
       
        
 };
