@@ -43,7 +43,7 @@ const playerData = {
             pace: '91',
             shooting: '95',
             passing: '90',
-            dribbling: '93',
+            dribbling: '92',
             defending: '70',
             physical: '77',
         },
@@ -172,14 +172,50 @@ const playerData = {
        'Player 15': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '88',
+            pace: '80',
             shooting: '85',
             passing: '87',
             dribbling: '86',
             defending: '88',
             physical: '90',
         },
+        rating: 85
+    },
+       'Player 16': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '88',
+            shooting: '92',
+            passing: '90',
+            dribbling: '89',
+            defending: '84',
+            physical: '88',
+        },
+        rating: 88
+    },
+       'Player 17': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '84',
+            shooting: '89',
+            passing: '83',
+            dribbling: '93',
+            defending: '79',
+            physical: '84',
+        },
         rating: 87
+    },
+       'Player 18': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '89',
+            shooting: '89',
+            passing: '91',
+            dribbling: '89',
+            defending: '89',
+            physical: '87',
+        },
+        rating: 89
     },
        
 };
