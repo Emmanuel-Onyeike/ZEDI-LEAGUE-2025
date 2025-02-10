@@ -254,3 +254,42 @@ body {
     color: #f1c40f; /* Slightly brighter gold color on hover */
     box-shadow: 0 0 15px rgba(255, 223, 0, 1); /* Glowing effect on hover */
 }
+.labels {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #ff6666; /* Red background for all labels */
+    border-radius: 5px;
+    color: #333;
+}
+
+/* You can keep individual classes if you want to distinguish labels later */
+.label.bought {
+    background-color: #ff6666; /* Red */
+}
+
+.label.retired {
+    background-color: #ff6666; /* Red */
+}
+
+.label.injury {
+    background-color: #ff6666; /* Red */
+}
+
+.label.backFromInjury {
+    background-color: #ff6666; /* Red */
+}
+
+.label.suspended {
+    background-color: #ff6666; /* Red */
+}
+
+.label.onLoan {
+    background-color: #ff6666; /* Red */
+}
