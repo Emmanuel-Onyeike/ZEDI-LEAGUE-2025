@@ -378,6 +378,13 @@ function showPlayerDetails(playerName) {
          document.getElementById('dribbling').innerText = player.stats.dribbling;
          document.getElementById('defending').innerText = player.stats.defending;
          document.getElementById('physical').innerText = player.stats.physical;
+        
+   document.getElementById('label-injury').textContent = `Injury: ${player.labels.injury}`;
+    document.getElementById('label-backFromInjury').textContent = `Back from Injury: ${player.labels.backFromInjury}`;
+    document.getElementById('label-suspended').textContent = `Suspended: ${player.labels.suspended}`;
+    document.getElementById('label-onLoan').textContent = `On Loan: ${player.labels.onLoan}`;
+    document.getElementById('label-bought').textContent = `Bought: ${player.labels.bought}`;
+    document.getElementById('label-retired').textContent = `Retired: ${player.labels.retired}`;
 
         // Set rating bar color
         const ratingBar = document.getElementById('ratingBar');
