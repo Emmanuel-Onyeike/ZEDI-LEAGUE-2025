@@ -161,13 +161,13 @@ const playerData = {
         image: 'https://via.placeholder.com/150',
         stats: {
               pace: '90',
-            shooting: '85',
-            passing: '83',
-            dribbling: '88',
-            defending: '90',
-            physical: '89',
+            shooting: '79',
+            passing: '80',
+            dribbling: '82',
+            defending: '88',
+            physical: '85',
         },
-        rating: 87
+        rating: 84
     },
        'Player 15': {
         image: 'https://via.placeholder.com/150',
