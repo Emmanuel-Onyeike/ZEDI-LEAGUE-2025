@@ -10,14 +10,7 @@ const playerData = {
             physical: '89',
         },
         rating: 87,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought this season.',
-            retired: 'Still playing.'
-        }
+        
     },
     'Player 2': {
         image: 'https://via.placeholder.com/150',
@@ -30,14 +23,7 @@ const playerData = {
             physical: '90',
         },
         rating: 84,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 3': {
         image: 'https://via.placeholder.com/150',
@@ -50,14 +36,7 @@ const playerData = {
             physical: '85',
         },
         rating: 88,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 4': {
         image: 'https://via.placeholder.com/150',
@@ -70,14 +49,7 @@ const playerData = {
             physical: '77',
         },
         rating: 87,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 5': {
         image: 'https://via.placeholder.com/150',
@@ -90,14 +62,7 @@ const playerData = {
             physical: '83',
         },
         rating: 88,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought this season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 6': {
         image: 'https://via.placeholder.com/150',
@@ -110,14 +75,7 @@ const playerData = {
             physical: '82',
         },
         rating: 88,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+        
     },
     'Player 7': {
         image: 'https://via.placeholder.com/150',
@@ -130,14 +88,7 @@ const playerData = {
             physical: '87',
         },
         rating: 85,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 8': {
         image: 'https://via.placeholder.com/150',
@@ -150,14 +101,7 @@ const playerData = {
             physical: '93',
         },
         rating: 88,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought this season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 9': {
         image: 'https://via.placeholder.com/150',
@@ -170,14 +114,7 @@ const playerData = {
             physical: '83',
         },
         rating: 70,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 10': {
         image: 'https://via.placeholder.com/150',
@@ -190,14 +127,7 @@ const playerData = {
             physical: '91',
         },
         rating: 90,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 11': {
         image: 'https://via.placeholder.com/150',
@@ -210,14 +140,7 @@ const playerData = {
             physical: '87',
         },
         rating: 87,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+     
     },
     'Player 12': {
         image: 'https://via.placeholder.com/150',
@@ -230,14 +153,7 @@ const playerData = {
             physical: '65',
         },
         rating: 76,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought this season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 13': {
         image: 'https://via.placeholder.com/150',
@@ -250,14 +166,7 @@ const playerData = {
             physical: '83',
         },
         rating: 83,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 14': {
         image: 'https://via.placeholder.com/150',
@@ -270,14 +179,7 @@ const playerData = {
             physical: '92',
         },
         rating: 88,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought this season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 15': {
         image: '',
@@ -290,14 +192,7 @@ const playerData = {
             physical: '90',
         },
         rating: 85,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+      
     },
     'Player 16': {
         image: '/mayor pg.jpg',
@@ -310,14 +205,7 @@ const playerData = {
             physical: '88',
         },
         rating: 89,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 17': {
         image: 'https:',
@@ -330,14 +218,7 @@ const playerData = {
             physical: '84',
         },
         rating: 87,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
     'Player 18': {
         image: 'https://via.placeholder.com/150',
@@ -350,14 +231,7 @@ const playerData = {
             physical: '87',
         },
         rating: 89,
-        labels: {
-            injury: 'No current injury.',
-            backFromInjury: 'No recent return from injury.',
-            suspended: 'Not suspended.',
-            onLoan: 'Not on loan.',
-            bought: 'Bought last season.',
-            retired: 'Still playing.'
-        }
+       
     },
 };
 
@@ -379,12 +253,6 @@ function showPlayerDetails(playerName) {
          document.getElementById('defending').innerText = player.stats.defending;
          document.getElementById('physical').innerText = player.stats.physical;
         
-   document.getElementById('label-injury').textContent = `Injury: ${player.labels.injury}`;
-    document.getElementById('label-backFromInjury').textContent = `Back from Injury: ${player.labels.backFromInjury}`;
-    document.getElementById('label-suspended').textContent = `Suspended: ${player.labels.suspended}`;
-    document.getElementById('label-onLoan').textContent = `On Loan: ${player.labels.onLoan}`;
-    document.getElementById('label-bought').textContent = `Bought: ${player.labels.bought}`;
-    document.getElementById('label-retired').textContent = `Retired: ${player.labels.retired}`;
 
         // Set rating bar color
         const ratingBar = document.getElementById('ratingBar');
