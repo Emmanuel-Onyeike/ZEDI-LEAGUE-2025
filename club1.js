@@ -183,7 +183,7 @@ const playerData = {
         rating: 85
     },
        'Player 16': {
-        image: 'https://via.placeholder.com/150',
+       image: 'mayor pg.jpg',
         stats: {
             pace: '88',
             shooting: '92',
