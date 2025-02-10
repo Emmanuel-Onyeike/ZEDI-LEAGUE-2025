@@ -171,7 +171,7 @@ const playerData = {
         rating: 88
     },
        'Player 15': {
-        image: 'https://via.placeholder.com/150',
+        image: '',
         stats: {
             pace: '80',
             shooting: '85',
@@ -183,7 +183,7 @@ const playerData = {
         rating: 85
     },
        'Player 16': {
-        image: 'https://example.com/images/mayor%20pg.jpg',
+        image: '/mayor pg.jpg',
         stats: {
             pace: '88',
             shooting: '92',
@@ -195,7 +195,7 @@ const playerData = {
         rating: 89
     },
        'Player 17': {
-        image: 'https://via.placeholder.com/150',
+        image: 'https:',
         stats: {
             pace: '84',
             shooting: '89',
