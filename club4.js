@@ -4,219 +4,196 @@ const playerData = {
         image: 'https://via.placeholder.com/150',
         stats: {
             pace: '83',
-            shooting: '85',
+            shooting: '80',
             passing: '87',
-            dribbling: '83',
-            defending: '92',
-            physical: '89',
+            dribbling: '70',
+            defending: '90',
+            physical: '80',
             
         },
-        rating: 87
+        rating: 82
     },
     'Player 2': {
         image: 'https://via.placeholder.com/150',
         stats: {
-           pace: '85',
-            shooting: '82',
+           pace: '83',
+            shooting: '84',
             passing: '78',
-            dribbling: '79',
-            defending: '85',
-            physical: '90',
+            dribbling: '80',
+            defending: '89',
+            physical: '86',
         },
         rating: 84
     },
     'Player 3': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '94',
-            shooting: '92',
+            pace: '90',
+            shooting: '89',
             passing: '88',
-            dribbling: '92',
-            defending: '77',
-            physical: '85',
+            dribbling: '83',
+            defending: '90',
+            physical: '89',
         },
         rating: 88
     },
     'Player 4': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '91',
-            shooting: '95',
-            passing: '90',
-            dribbling: '92',
-            defending: '70',
-            physical: '77',
+            pace: '87',
+            shooting: '82',
+            passing: '79',
+            dribbling: '72',
+            defending: '89',
+            physical: '89',
         },
-        rating: 87
+        rating: 83
     },
     'Player 5': {
         image: 'https://via.placeholder.com/150',
         stats: {
               pace: '87',
-            shooting: '90',
-            passing: '95',
-            dribbling: '92',
-            defending: '80',
-            physical: '83',
+            shooting: '89',
+            passing: '87',
+            dribbling: '88',
+            defending: '83',
+            physical: '85',
         },
-        rating: 88
+        rating: 87
     },
     'Player 6': {
         image: 'https://via.placeholder.com/150',
         stats: {
-              pace: '95',
-            shooting: '92',
-            passing: '87',
+              pace: '90',
+            shooting: '89',
+            passing: '85',
             dribbling: '90',
             defending: '79',
             physical: '82',
         },
-        rating: 88
+        rating: 87
     },
     'Player 7': {
         image: 'https://via.placeholder.com/150',
         stats: {
-               pace: '85',
-            shooting: '80',
-            passing: '83',
-            dribbling: '85',
-            defending: '88',
-            physical: '87',
+               pace: '60',
+            shooting: '95',
+            passing: '90',
+            dribbling: '83',
+            defending: '89',
+            physical: '90',
         },
-        rating: 85
+        rating: 88
     },
     'Player 8': {
         image: 'https://via.placeholder.com/150',
         stats: {
-             pace: '88',
-            shooting: '85',
-            passing: '87',
-            dribbling: '79',
-            defending: '95',
-            physical: '93',
+             pace: '91',
+            shooting: '89',
+            passing: '90',
+            dribbling: '91',
+            defending: '87',
+            physical: '83',
         },
-        rating: 88
+        rating: 89
     },
     'Player 9': {
         image: 'https://via.placeholder.com/150',
         stats: {
-             pace: '82',
-            shooting: '75',
-            passing: '60',
-            dribbling: '40',
-            defending: '80',
-            physical: '83',
+             pace: '80',
+            shooting: '82',
+            passing: '89',
+            dribbling: '87',
+            defending: '89',
+            physical: '88',
         },
-        rating: 70
+        rating: 86
     },
     'Player 10': {
         image: 'https://via.placeholder.com/150',
         stats: {
-               pace: '87',
-            shooting: '90',
-            passing: '91',
-            dribbling: '89',
-            defending: '93',
-            physical: '91',
+               pace: '89',
+            shooting: '87',
+            passing: '79',
+            dribbling: '79',
+            defending: '90',
+            physical: '90',
         },
-        rating: 90
+        rating: 86
     },
     'Player 11': {
         image: 'https://via.placeholder.com/150',
         stats: {
                 pace: '85',
-            shooting: '87',
-            passing: '89',
-            dribbling: '83',
-            defending: '89',
-            physical: '87',
+            shooting: '89',
+            passing: '85',
+            dribbling: '90',
+            defending: '40',
+            physical: '79',
         },
-        rating: 87
+        rating: 83
     },
     'Player 12': {
         image: 'https://via.placeholder.com/150',
         stats: {
-               pace: '78',
+               pace: '89',
             shooting: '90',
-            passing: '89',
-            dribbling: '91',
-            defending: '43',
-            physical: '65',
+            passing: '85',
+            dribbling: '87',
+            defending: '60',
+            physical: '89',
         },
-        rating: 76
+        rating: 84
     },
     'Player 13': {
         image: 'https://via.placeholder.com/150',
         stats: {
-              pace: '85',
-            shooting: '82',
-            passing: '80',
-            dribbling: '81',
-            defending: '85',
-            physical: '83',
+              pace: '90',
+            shooting: '89',
+            passing: '87',
+            dribbling: '89',
+            defending: '79',
+            physical: '86',
         },
-        rating: 83
+        rating: 87
     },
        'Player 14': {
         image: 'https://via.placeholder.com/150',
         stats: {
               pace: '90',
-            shooting: '78',
-            passing: '82',
-            dribbling: '77',
-            defending: '94',
-            physical: '92',
+            shooting: '85',
+            passing: '83',
+            dribbling: '88',
+            defending: '90',
+            physical: '89',
         },
-        rating: 88
+        rating: 87
     },
        'Player 15': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '80',
-            shooting: '85',
-            passing: '87',
-            dribbling: '86',
+            pace: '79',
+            shooting: '89',
+            passing: '90',
+            dribbling: '87',
             defending: '88',
             physical: '90',
         },
-        rating: 85
+        rating: 87
     },
        'Player 16': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '88',
-            shooting: '92',
-            passing: '90',
+            pace: '90',
+            shooting: '87',
+            passing: '86',
             dribbling: '89',
-            defending: '84',
-            physical: '88',
+            defending: '91',
+            physical: '90',
         },
         rating: 88
     },
-       'Player 17': {
-        image: 'https://via.placeholder.com/150',
-        stats: {
-            pace: '84',
-            shooting: '89',
-            passing: '83',
-            dribbling: '93',
-            defending: '79',
-            physical: '84',
-        },
-        rating: 87
-    },
-       'Player 18': {
-        image: 'https://via.placeholder.com/150',
-        stats: {
-            pace: '89',
-            shooting: '89',
-            passing: '91',
-            dribbling: '89',
-            defending: '89',
-            physical: '87',
-        },
-        rating: 89
-    },
+      
        
 };
 
