@@ -27,7 +27,7 @@ const playerData = {
     'Player 3': {
         image: 'https://via.placeholder.com/150',
         stats: {
-             pace: '90',
+             pace: '88',
             shooting: '80',
             passing: '90',
             dribbling: '79',
@@ -51,7 +51,7 @@ const playerData = {
     'Player 5': {
         image: 'https://via.placeholder.com/150',
         stats: {
-             pace: '80',
+             pace: '90',
             shooting: '89',
             passing: '90',
             dribbling: '90',
