@@ -205,6 +205,18 @@ const playerData = {
         },
         rating: 88
     },
+       'Player 18': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '80',
+            shooting: '88',
+            passing: '90',
+            dribbling: '90',
+            defending: '79',
+            physical: '79',
+        },
+        rating: 86
+    },
       
        
 };
