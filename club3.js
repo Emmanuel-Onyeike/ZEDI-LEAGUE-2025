@@ -41,12 +41,12 @@ const playerData = {
         stats: {
              pace: '89',
             shooting: '93',
-            passing: '89',
+            passing: '90',
             dribbling: '89',
             defending: '80',
             physical: '85',
         },
-        rating: 87
+        rating: 89
     },
     'Player 5': {
         image: 'https://via.placeholder.com/150',
