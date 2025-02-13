@@ -120,30 +120,119 @@ const playerData = {
         image: 'https://via.placeholder.com/150',
         stats: {
             pace: '87',
-            shooting: '85',
-            passing: '83',
-            dribbling: '80',
-            defending: '87',
-            physical: '84',
+            shooting: '90',
+            passing: '91',
+            dribbling: '89',
+            defending: '93',
+            physical: '91',
         },
-        rating: 86,
+        rating: 90,
       
     },
     'Player 11': {
         image: 'https://via.placeholder.com/150',
         stats: {
-            pace: '80',
-            shooting: '85',
-            passing: '80',
-            dribbling: '79',
-            defending: '86',
+            pace: '85',
+            shooting: '87',
+            passing: '89',
+            dribbling: '83',
+            defending: '89',
             physical: '87',
         },
         rating: 87,
      
     },
-    
-
+    'Player 12': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '78',
+            shooting: '90',
+            passing: '89',
+            dribbling: '91',
+            defending: '43',
+            physical: '65',
+        },
+        rating: 76,
+       
+    },
+    'Player 13': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '85',
+            shooting: '82',
+            passing: '80',
+            dribbling: '81',
+            defending: '85',
+            physical: '83',
+        },
+        rating: 83,
+       
+    },
+    'Player 14': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '90',
+            shooting: '78',
+            passing: '82',
+            dribbling: '77',
+            defending: '94',
+            physical: '92',
+        },
+        rating: 88,
+       
+    },
+    'Player 15': {
+        image: '',
+        stats: {
+            pace: '80',
+            shooting: '85',
+            passing: '87',
+            dribbling: '86',
+            defending: '88',
+            physical: '90',
+        },
+        rating: 85,
+      
+    },
+    'Player 16': {
+        image: '/mayor pg.jpg',
+        stats: {
+            pace: '88',
+            shooting: '92',
+            passing: '95',
+            dribbling: '89',
+            defending: '84',
+            physical: '88',
+        },
+        rating: 89,
+       
+    },
+    'Player 17': {
+        image: 'https:',
+        stats: {
+            pace: '84',
+            shooting: '89',
+            passing: '83',
+            dribbling: '93',
+            defending: '79',
+            physical: '84',
+        },
+        rating: 87,
+       
+    },
+    'Player 18': {
+        image: 'https://via.placeholder.com/150',
+        stats: {
+            pace: '89',
+            shooting: '89',
+            passing: '91',
+            dribbling: '89',
+            defending: '89',
+            physical: '87',
+        },
+        rating: 89,
+       
+    },
 };
 
 // Function to display player details
