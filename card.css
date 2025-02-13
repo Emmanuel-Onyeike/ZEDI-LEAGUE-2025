@@ -24,3 +24,87 @@ body {
     color: #333;
     font-size: 1.2em;
 }
+.table-container {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.clickable-label {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.clickable-label:hover {
+    background-color: #218838;
+}
+
+.result-cell {
+    display: none; /* Hide results initially */
+    color: #555;
+}
+
+.result-cell.active {
+    display: block; /* Show result when active */
+}
+
+/* Mobile View (Responsive Design) */
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 95%; /* Increase width for smaller screens */
+        padding: 15px;
+    }
+
+    .table-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .clickable-label {
+        font-size: 1em; /* Adjust font size for mobile */
+        padding: 10px;
+    }
+
+    .result-cell {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+/* Very small screen (Mobile phones) */
+@media screen and (max-width: 480px) {
+    .card-container {
+        width: 100%; /* Full width for very small screens */
+    }
+
+    .clickable-label {
+        font-size: 0.9em;
+    }
+
+    .result-cell {
+        font-size: 0.8em; /* Adjust font size even further */
+    }
+}
