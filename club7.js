@@ -143,11 +143,7 @@ const playerData = {
      
     },
     
-    
-    
-   
-       
-    },
+
 };
 
 // Function to display player details
