@@ -138,14 +138,10 @@ const playerData = {
             dribbling: '79',
             defending: '89',
             physical: '89',
-        },
-        rating: 87,
-     
-    },
-    
+         },
+        rating: 89,
        
-  
-   
+    },
 };
 
 // Function to display player details
