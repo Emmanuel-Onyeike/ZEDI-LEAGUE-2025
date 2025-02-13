@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f0f0f0;
+}
+
+.card-container {
+    width: 60%;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #d4edda; /* Light green background */
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-container p {
+    color: #333;
+    font-size: 1.2em;
+}
