@@ -227,6 +227,14 @@ p {
 }
 
 /* Full-screen Dark Overlay */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-screen Dark Overlay */
 .dark-overlay {
     position: fixed;
     top: 0;
@@ -307,8 +315,10 @@ p {
     opacity: 0;
     visibility: hidden;
     transition: opacity 2s ease;
+    z-index: 1003;
 }
 
+/* Player Card Styling */
 .card {
     background-color: #fff;
     border-radius: 10px;
@@ -346,6 +356,12 @@ p {
     border-radius: 5px;
 }
 
+/* Modal hidden when dark overlay is active */
+.modal {
+    z-index: 0; /* Send modal to background when animation starts */
+    visibility: hidden;
+}
+
 /* Animation for Player Cards */
 @keyframes showCards {
     0% {
@@ -357,4 +373,3 @@ p {
         transform: translateY(0);
     }
 }
-
