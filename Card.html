@@ -11,35 +11,37 @@
     
     <button class="reveal-button" onclick="revealContent()">Click to Reveal</button>
 
-  <div class="modal" id="myModal">
+<div class="modal" id="myModal">
     <div class="modal-content">
         <!-- Modal Top Section -->
-        <div class="modal-section top" onclick="sectionClicked('top')">
-            <!-- Display the text 89-100 at the top of the modal -->
-            <div class="top-range">
-                89-100
-            </div>
+        <div class="modal-section top" onclick="startPresentation()">
+            <div class="top-range">89-100</div>
             <span class="close" onclick="closeModal()">&times;</span>
         </div>
 
         <!-- Modal Middle Section -->
-        <div class="modal-section middle" onclick="sectionClicked('middle')">
-            <!-- Display the text 85-95 in the middle section -->
-            <div class="middle-range">
-                85-95
-            </div>
+        <div class="modal-section middle">
+            <div class="middle-range">85-95</div>
         </div>
 
         <!-- Modal Bottom Section -->
-        <div class="modal-section bottom" onclick="sectionClicked('bottom')">
-            <!-- Display the text 80-90 in the bottom section -->
-            <div class="bottom-range">
-                80-90
-            </div>
+        <div class="modal-section bottom">
+            <div class="bottom-range">80-90</div>
         </div>
     </div>
 </div>
 
+<!-- Dark Screen Overlay -->
+<div class="dark-overlay" id="darkOverlay"></div>
+
+<!-- Sparks Animation -->
+<div class="sparks" id="sparks"></div>
+
+<!-- Stadium Animation -->
+<div class="stadium" id="stadium"></div>
+
+<!-- Player Cards -->
+<div class="player-cards" id="playerCards"></div>
 
 
     <script src="card.js"></script>
