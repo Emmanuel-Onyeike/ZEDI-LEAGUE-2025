@@ -31,10 +31,13 @@ body, html {
 
 /* Hover effect for button */
 .reveal-button:hover {
-    background-color: #4292c8; /* Slightly darker blue */
-    transform: translateY(-2px); /* Subtle lift effect */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    background-color: #378cb3; /* A deeper, more vibrant blue */
+    transform: translateY(-4px) scale(1.05); /* Lift the button more and scale it slightly */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* A stronger, more spread-out shadow */
+    border: 2px solid #ffffff; /* Adding a glowing border */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
 }
+
 
 /* Button focus style for accessibility */
 .reveal-button:focus {
