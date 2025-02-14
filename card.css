@@ -119,3 +119,55 @@ p {
         padding: 15px;
     }
 }
+.modal-section {
+    padding: 15px;
+}
+
+.modal-section.top {
+    background-color: #e1f2ff; /* Light blue for top section */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.modal-section.middle {
+    background-color: #f4f8fb; /* Lighter background for middle section */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.modal-section.bottom {
+    background-color: #e1f2ff; /* Light blue for bottom section */
+    border-radius: 8px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    cursor: pointer;
+}
+
+/* Change color of close button on hover */
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Mobile and desktop responsiveness */
+@media screen and (max-width: 768px) {
+    .reveal-button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 15px;
+    }
+}
