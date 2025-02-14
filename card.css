@@ -1,28 +1,45 @@
-
-/* Center the button on both mobile and desktop */
+/* Apply a soft gradient background with a light blue theme */
 body, html {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #a0c4ff, #c4e1f4); /* Light blue gradient */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Centering the content */
+.container {
+    text-align: center;
 }
 
 /* Button style */
 .reveal-button {
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #3498db;
+    background-color: #5fa8d4; /* Soft blue color */
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
+/* Hover effect for button */
 .reveal-button:hover {
-    background-color: #2980b9;
+    background-color: #4292c8; /* Slightly darker blue */
+    transform: translateY(-2px); /* Subtle lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Button focus style for accessibility */
+.reveal-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(72, 158, 230, 0.6); /* Highlight the button when focused */
 }
 
 /* Mobile and desktop responsiveness */
@@ -31,4 +48,16 @@ body, html {
         font-size: 16px;
         padding: 12px 24px;
     }
+}
+
+/* Optional - Make the body look clean and tidy */
+h1 {
+    font-size: 2.5rem;
+    color: #2e4b77;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
 }
