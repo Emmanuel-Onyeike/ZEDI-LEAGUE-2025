@@ -192,3 +192,30 @@ p {
     color: #3498db; /* Light blue color */
     margin-bottom: 10px;
 }
+/* Modal section styles */
+.modal-section {
+    padding: 15px;
+    cursor: pointer; /* Makes the sections clickable */
+}
+
+/* Hover effect when hovering over the clickable sections */
+.modal-section:hover {
+    background-color: #f0f8ff; /* Light background on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Top, Middle, and Bottom Sections Styling */
+.modal-section.top {
+    background-color: #e1f2ff;
+    border-radius: 8px;
+}
+
+.modal-section.middle {
+    background-color: #f4f8fb;
+    border-radius: 8px;
+}
+
+.modal-section.bottom {
+    background-color: #e1f2ff;
+    border-radius: 8px;
+}
