@@ -171,3 +171,24 @@ p {
         padding: 15px;
     }
 }
+.top-range {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db; /* Light blue color */
+    margin-bottom: 10px;
+}
+/* Style for the 85-95 text in the middle section */
+.middle-range {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db; /* Light blue color */
+    margin-bottom: 10px;
+}
+
+/* Style for the 80-90 text in the bottom section */
+.bottom-range {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db; /* Light blue color */
+    margin-bottom: 10px;
+}
