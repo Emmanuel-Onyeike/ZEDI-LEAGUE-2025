@@ -12,24 +12,37 @@
     <button class="reveal-button" onclick="revealContent()">Click to Reveal</button>
 
   <div class="modal" id="myModal">
-        <div class="modal-content">
-            <!-- Modal Top Section -->
-            <div class="modal-section top">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <h2>Content Revealed!</h2>
+    <div class="modal-content">
+        <!-- Modal Top Section -->
+        <div class="modal-section top">
+            <!-- Display the text 89-100 at the top of the modal -->
+            <div class="top-range">
+                89-100
             </div>
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Content Revealed!</h2>
+        </div>
 
-            <!-- Modal Middle Section -->
-            <div class="modal-section middle">
-                <p>This is the hidden content that gets revealed when you click the button.</p>
+        <!-- Modal Middle Section -->
+        <div class="modal-section middle">
+            <!-- Display the text 85-95 in the middle section -->
+            <div class="middle-range">
+                85-95
             </div>
+            <p>This is the hidden content that gets revealed when you click the button.</p>
+        </div>
 
-            <!-- Modal Bottom Section -->
-            <div class="modal-section bottom">
-                <p>Thank you for revealing the content!</p>
+        <!-- Modal Bottom Section -->
+        <div class="modal-section bottom">
+            <!-- Display the text 80-90 in the bottom section -->
+            <div class="bottom-range">
+                80-90
             </div>
+            <p>Thank you for revealing the content!</p>
         </div>
     </div>
+</div>
+
 
     <script src="card.js"></script>
 </body>
